@@ -5,8 +5,8 @@ export const Login = ({login , setLogin}) => {
 
   return (
     <div>
-        <span style={{margin: '10px'}}>Login</span>
-        <button onClick={()=> setLogin(!login)}>{login && 'Logout'}{!login && 'Login'}</button>
+        <span style={{margin: '10px'}}>Login</span> <br/>
+        <button onClick={()=> setLogin(!login)}>{login && 'Log Out'}{!login && 'Log In'}</button>
     </div>
   )
 }
